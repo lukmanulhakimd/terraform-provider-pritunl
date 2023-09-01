@@ -38,18 +38,18 @@ or use the following example:
 terraform {
   required_providers {
     pritunl = {
-      source  = "disc/pritunl"
-      version = "0.1.7"
+      source  = "lukmanulhakimd/pritunl"
+      version = "1.0.1"
     }
   }
 }
 
 # Configure the pritunl provider
 provider "pritunl" {
-  url    = "https://vpn.server.com"
-  token  = "api-token"
-  secret = "api-secret"
-  insecure = false
+  url       = "https://vpn.server.com"
+  username  = "admin"
+  secret    = "your-password"
+  insecure  = false
 }
 
 # Create a pritunl organization resource
