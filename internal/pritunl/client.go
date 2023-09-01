@@ -903,7 +903,6 @@ func NewClient(baseUrl, username, password string, insecure bool) Client {
 	if err != nil {
 		log.Fatalf("Error: %s", err)
 	}
-	log.Printf("status Code: %d", resp.StatusCode)
 	resp.Body.Close()
 
 	return &client{httpClient: httpClient}
