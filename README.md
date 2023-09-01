@@ -15,7 +15,7 @@
 - Website: https://www.terraform.io
 - Pritunl VPN Server: https://pritunl.com/
 - Provider: [lukmanulhakimd/pritunl](https://registry.terraform.io/providers/lukmanulhakimd/pritunl/latest)
-- Forked from disc/terraform-provider-pritunl, this provider supports user+pass authentication for non enterprise pritunl instances
+- Forked from [disc/terraform-provider-pritunl](https://github.com/disc/terraform-provider-pritunl), this provider supports user+pass authentication for non enterprise pritunl instances
 
 ## Requirements
 -	[Terraform](https://www.terraform.io/downloads.html) >=0.13.x
